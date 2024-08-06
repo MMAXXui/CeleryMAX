@@ -22,6 +22,8 @@ tab:Label("This script works perfectly on celery , solara , wave ... ")
 
 local tab1 = win:Tab("Scripts ", "http://www.roblox.com/asset/?id=6023426915")
 
+tab:Label("not mine")
+
 tab1:Button("Dark dex v4", "execute dark dex v4.", function()
     --[[
 	DEX Main Script
@@ -3493,3 +3495,5 @@ tab2:Slider("Walkspeed", "Makes your faster.", 0, 100,16,function(t)
 tab:Slider("Jumpower", "Makes your jump more powerful.", 0, 100,16,function(t)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
     end)
+
+while true do end
